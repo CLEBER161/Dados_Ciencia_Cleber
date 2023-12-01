@@ -7,3 +7,8 @@ Django==3.2.5
 pytest==6.2.4
 jupyter==1.0.0
 streamlit==1.24.0
+plotly
+matplotlib
+openpyxl
+streamlit_card
+treamlit_plotly
