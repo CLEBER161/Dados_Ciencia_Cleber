@@ -16,7 +16,7 @@ st.set_page_config(
 
 @st.cache_data
 def load_data():
-    df_data2 = pd.read_excel('C:/Users/clebe/OneDrive/Área de Trabalho/DADOS PARA ATUALIZAR MENSALMENTE/BASE23.xlsx')
+    df_data2 = pd.read_excel('BASE23.xlsx')
     return df_data2
 
 
@@ -471,17 +471,17 @@ def subheader_custom_font(text, font_size):
 # Uso da função customizada
 subheader_custom_font("Este é um subcabeçalho", 24)
 
-col3.subheader<h3>"Resultado Geral"</h3>
+col3.subheader("Resultado Geral")
 #col2.write(RESULTADO)
 col3.plotly_chart(fig3, use_container_width=True)
 
-col4.subheader("<h3 style='color:blue;'>Resultado Pilar-Gente</h3>")
+col4.subheader("Resultado Pilar-Gente")
 col4.plotly_chart(fig4, use_container_width=True)
 
-col5.subheader("<h3 style='color:blue;'>Resultado Pilar-Segurança</h3>")
+col5.subheader("Resultado Pilar-Segurança")
 col5.plotly_chart(fig5, use_container_width=True)
 
-col6.subheader("<h3 style='color:blue;'>Resultado Pilar-Expereiência do Cliente</h3>")
+col6.subheader("Resultado Pilar-Expereiência do Cliente")
 col6.plotly_chart(fig6, use_container_width=True)
 
 
